@@ -92,8 +92,6 @@ func _run() -> void:
 			await _stress()
 		"gallery":
 			await _gallery()
-		"gif":
-			await _gif()
 		"early":
 			await _game(_make_hotel("early"), "early", false)
 		"mid":
@@ -128,25 +126,6 @@ func _gallery() -> void:
 	sv.add_child(g)
 	await _wait(8)
 	await _shot("gallery")
-
-func _gif() -> void:
-	var h := _make_hotel("mid")
-	gs = GameScreen.new()
-	gs.hotel = h
-	sv.add_child(gs)
-	await _wait(10)
-	await _wait_bakes()
-	gs.focus_world_y(gs.tower.floor_center(3).y)
-	await get_tree().create_timer(1.0).timeout
-	var frame_dir := out_dir.path_join("frames")
-	DirAccess.make_dir_recursive_absolute(frame_dir)
-	var total_frames := 28
-	for i in range(total_frames):
-		await get_tree().create_timer(0.12).timeout
-		await RenderingServer.frame_post_draw
-		var img := sv.get_texture().get_image()
-		img.save_png(frame_dir.path_join("frame_%03d.png" % i))
-		print("frame: %d/%d" % [i + 1, total_frames])
 
 # --- teste de interação (sem capturas): toques, coleta, painéis e construção ------------------
 

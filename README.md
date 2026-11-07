@@ -10,12 +10,6 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Offline](https://img.shields.io/badge/Gameplay-100%25_Offline-purple)]()
 
-<br/>
-
-<img src="docs/screenshots/gameplay.gif" alt="Monstel Gameplay Animation" width="340" />
-
-<p><em>Simulação viva da torre em tempo real: hóspedes monstrinhos, elevadores SCAN e automação</em></p>
-
 </div>
 
 ---
@@ -187,12 +181,11 @@ Monstel/
 │   ├── dev.bat            # Atalhos de desenvolvimento (import, run, smoke, script)
 │   ├── build_apk.bat      # Script para compilação headless do APK Android
 │   ├── install_apk.bat    # Script para instalação e abertura via ADB no celular
-│   ├── make_gif.js        # Compilador de frames em GIF animado otimizado
 │   ├── gen_audio.gd       # Sintetizador procedural dos efeitos sonoros
 │   └── gen_icons.gd       # Gerador procedural dos ícones Android
 │
 ├── docs/                  # Documentação de design e capturas
-│   ├── screenshots/       # GIF de gameplay e imagens de demonstração
+│   ├── screenshots/       # Capturas de tela demonstrativas
 │   └── PLANO.md           # Game Design Document (GDD) original aprovado
 │
 └── .claude/               # Referências de desenvolvimento e guias Godot
