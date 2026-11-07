@@ -1,0 +1,178 @@
+{
+  "pt": {
+    "factor": {
+      "reception": {
+        "good": ["Check-in tão rápido que nem deu tempo de reclamar. Cinco estrelas!", "A recepção resolveu tudo antes do meu café esfriar. (Eu nem tomo café.)"],
+        "bad": ["Esperei tanto na recepção que virei esqueleto. Literalmente.", "A fila era tão longa que minha maldição venceu antes do check-in."],
+        "mid": ["Recepção ok. Só demorou um pouquinho mais que um enterro."]
+      },
+      "elevator": {
+        "good": ["Elevador veloz! Cheguei no quarto antes de terminar de assombrar.", "Subi e desci sem um único susto. Impressionante."],
+        "bad": ["Esperei tanto no elevador que o meu caixão ficou antigo.", "Elevador mais lento que uma múmia de muletas."],
+        "mid": ["O elevador funciona. Em algum momento ele chega."]
+      },
+      "comfort": {
+        "good": ["Cama tão macia que dormi o sono dos mortos. Duas vezes.", "O quarto é uma delícia! Só faltou uma teia de aranha de cortesia."],
+        "bad": ["O colchão é mais duro que ressaca de vampiro.", "Quarto simples demais para o meu nível de maldade."],
+        "mid": ["Quarto aceitável. Já dormi em lugares piores (um caixão alugado)."]
+      },
+      "price": {
+        "good": ["Preço justo! Sobrou até para um chapéu novo.", "Barato de dar medo. Do bom."],
+        "bad": ["Preço de dar calafrios, e não são os bons.", "Cobraram tanto que parece que o hotel é assombrado pela inflação."],
+        "mid": ["Preço salgado, mas assombrações custam caro mesmo."]
+      },
+      "clean": {
+        "good": ["Cama impecável, nenhuma teia fora do lugar!"],
+        "bad": ["A cama ainda tinha o cheiro do hóspede anterior. E ele era um zumbi.", "Limpeza? Só a da minha ficha criminal."],
+        "mid": ["Estava limpo, mais ou menos. Tinha uma meia suspeita."]
+      },
+      "facility": {
+        "good": ["Os serviços do hotel são de morrer... de felicidade!", "Fui no serviço e voltei renovado. Só faltou me enterrarem no final."],
+        "bad": ["A fila do serviço era tão grande que desisti de viver. De novo.", "Esperei tanto pelo serviço que até a minha sombra foi embora."],
+        "mid": ["O serviço é bom, mas a fila quase me matou. (Tá, quase.)"]
+      },
+      "stairs": {
+        "bad": ["Cansei de esperar o elevador e fui de escada. Perdi uma perna no caminho.", "Subi de escada. Nunca mais. Sou fantasma, mas meu joelho dói."],
+        "mid": ["Peguei a escada. O elevador deve estar ocupado até hoje."]
+      },
+      "vip": {
+        "good": ["Fui tratado como realeza maldita. Voltarei com a corte inteira!", "Cumprimentaram até a minha capa. Serviço de primeira."],
+        "bad": ["Para quem tem tapete vermelho, o serviço foi bem... cinza."],
+        "mid": ["Um hotel digno de um VIP, quase. Faltou um pouco de glamour."]
+      }
+    },
+    "species": {
+      "ghost": {
+        "good": ["Atravessei as paredes e ninguém reclamou. Cinco estrelas!", "Adorei ficar sem... digo, pagar pouco. Volto sempre!"],
+        "mid": ["Quarto ok, mas meu lençol veio com cheiro de lavanda. Sou tradicional."],
+        "bad": ["Tentei assombrar o vizinho e ele gostou. Sem graça."]
+      },
+      "zombie": {
+        "good": ["Cérebros de qualidade e quarto aconchegante. Nhoooom!", "Ficaria para sempre. Já estou meio morto de qualquer jeito."],
+        "mid": ["Gostei do hotel, mas não achei o botão de... espera, onde eu estava mesmo?"],
+        "bad": ["Cadê o buffet?? Estou com BRAAAIINS... digo, fome."]
+      },
+      "vampire": {
+        "good": ["Cortina blackout impecável. Nenhum raio de sol, perfeito!", "O bar tinha o meu tipo favorito. B negativo, claro."],
+        "mid": ["Estadia aceitável. Só achei o espelho do banheiro meio inútil."],
+        "bad": ["Cortina fina demais. Quase virei churrasco."]
+      },
+      "mummy": {
+        "good": ["As bandagens do spa estavam novinhas em folha!", "Saí do spa com 3.000 anos a menos."],
+        "mid": ["Gostei do hotel, mas tem corrente de ar. Minhas bandagens balançam."],
+        "bad": ["Fiquei preso numa fila e minhas bandagens desenrolaram de nervoso."]
+      },
+      "witch": {
+        "good": ["Meu caldeirão coube no quarto! Voltarei na próxima lua cheia.", "A boutique tinha o chapéu perfeito. Gastei tudo, sem culpa."],
+        "mid": ["Quarto bom, mas a vassoura não tinha onde estacionar."],
+        "bad": ["Minhas poções desandaram com esse atendimento."]
+      },
+      "werewolf": {
+        "good": ["Lua cheia no corredor e academia boa. Uivei de felicidade!", "Quarto com cheiro de osso novo. Nota dez."],
+        "mid": ["Gostei, mas deixei pelos por todo lado. Desculpem, é a natureza."],
+        "bad": ["Deixei pelos pelo quarto e ainda me cobraram. Rude."]
+      }
+    },
+    "generic": {
+      "good": ["Hotel assustadoramente bom!", "Minha estadia foi de arrepiar... de alegria!", "Se eu tivesse coração, estaria derretido."],
+      "mid": ["Nem de morrer, nem de viver. Ok.", "Cumpre o que promete: abrigo para criaturas da noite."],
+      "bad": ["Me deu tanto medo quanto um alho.", "Uma experiência que não desejo nem para o meu pior inimigo mortal."]
+    },
+    "names": {
+      "ghost": ["Boozinho", "Dona Fantasminha", "Sr. Lençol", "Casper Jr.", "Tia Assombra"],
+      "zombie": ["Zé Cérebro", "Dona Zumbilda", "Zumbão", "Seu Arrasta-Pé", "Brainho"],
+      "vampire": ["Conde Vlad", "Duquesa Drácula", "Barão Sanguessuga", "Lady Presas", "Visconde Noturno"],
+      "mummy": ["Faraó Ramsés", "Dona Bandaide", "Tut Júnior", "Sr. Atadura", "Cleo Patrinha"],
+      "witch": ["Madame Poção", "Bruxa Berenice", "Dona Caldeirão", "Morgana Vassoura", "Tia Verruga"],
+      "werewolf": ["Lobo Uivão", "Sr. Peludo", "Fenrir Neto", "Lua Cheia Lu", "Rex Garra"]
+    }
+  },
+  "en": {
+    "factor": {
+      "reception": {
+        "good": ["Check-in so fast I had no time to complain. Five stars!", "Reception sorted everything before my coffee got cold. (I don't even drink coffee.)"],
+        "bad": ["I waited so long at reception I turned into a skeleton. Literally.", "The line was so long my curse expired before check-in."],
+        "mid": ["Reception was fine. Only slightly slower than a funeral."]
+      },
+      "elevator": {
+        "good": ["Speedy elevator! Reached my room before I finished haunting.", "Went up and down without a single scare. Impressive."],
+        "bad": ["I waited so long for the elevator my coffin became an antique.", "Slower than a mummy on crutches."],
+        "mid": ["The elevator works. Eventually it arrives."]
+      },
+      "comfort": {
+        "good": ["Bed so soft I slept the sleep of the dead. Twice.", "Lovely room! Only missing a complimentary cobweb."],
+        "bad": ["The mattress is harder than a vampire's hangover.", "Too plain for my level of evil."],
+        "mid": ["Acceptable room. I've slept in worse (a rented coffin)."]
+      },
+      "price": {
+        "good": ["Fair price! Even left enough for a new hat.", "Scary cheap. In a good way."],
+        "bad": ["Prices gave me the chills, and not the good kind.", "They charged so much the hotel must be haunted by inflation."],
+        "mid": ["Pricey, but hauntings don't come cheap."]
+      },
+      "clean": {
+        "good": ["Spotless bed, not a cobweb out of place!"],
+        "bad": ["The bed still smelled like the previous guest. He was a zombie.", "Cleanliness? Only my criminal record is clean."],
+        "mid": ["Clean, sort of. There was a suspicious sock."]
+      },
+      "facility": {
+        "good": ["The hotel services are to die for... of happiness!", "Used the service and came back brand new. Only missing a proper burial."],
+        "bad": ["The queue for the service was so long I gave up on living. Again.", "Waited so long my shadow left without me."],
+        "mid": ["Great service, but the queue almost killed me. (Okay, almost.)"]
+      },
+      "stairs": {
+        "bad": ["Got tired of waiting for the elevator and took the stairs. Lost a leg on the way.", "Took the stairs. Never again. I'm a ghost and my knee still hurts."],
+        "mid": ["Took the stairs. The elevator must still be busy."]
+      },
+      "vip": {
+        "good": ["Treated like cursed royalty. I'll be back with the whole court!", "They even greeted my cape. First-class service."],
+        "bad": ["For a place with a red carpet, the service felt rather... grey."],
+        "mid": ["A hotel worthy of a VIP, almost. Needs a bit more glamour."]
+      }
+    },
+    "species": {
+      "ghost": {
+        "good": ["Walked through the walls and nobody complained. Five stars!", "Loved paying so little. I mean, loved the hotel! I'll be back!"],
+        "mid": ["Nice room, but my sheet smelled of lavender. I'm traditional."],
+        "bad": ["Tried to haunt the neighbor and he liked it. No fun."]
+      },
+      "zombie": {
+        "good": ["Quality brains and a cozy room. Nomnomnom!", "Would stay forever. I'm half dead anyway."],
+        "mid": ["Liked the hotel, but I couldn't find the... wait, where was I again?"],
+        "bad": ["Where's the buffet?? I'm craving BRAAAINS... I mean, food."]
+      },
+      "vampire": {
+        "good": ["Flawless blackout curtains. Not a ray of sun, perfect!", "The bar had my favorite type. B negative, of course."],
+        "mid": ["Acceptable stay. The bathroom mirror was a bit useless, though."],
+        "bad": ["Curtains too thin. I almost became barbecue."]
+      },
+      "mummy": {
+        "good": ["The spa bandages were brand new!", "Left the spa 3,000 years younger."],
+        "mid": ["Liked it, but there's a draft. My bandages keep flapping."],
+        "bad": ["Got stuck in a queue and my bandages unraveled from nerves."]
+      },
+      "witch": {
+        "good": ["My cauldron fit in the room! Back on the next full moon.", "The boutique had the perfect hat. Spent everything, no regrets."],
+        "mid": ["Good room, but nowhere to park my broom."],
+        "bad": ["My potions curdled after that service."]
+      },
+      "werewolf": {
+        "good": ["Full moon in the hallway and a great gym. Howled with joy!", "Room smelled like fresh bone. Ten out of ten."],
+        "mid": ["Liked it, but I shed everywhere. Sorry, it's nature."],
+        "bad": ["Left some fur in the room and they charged me. Rude."]
+      }
+    },
+    "generic": {
+      "good": ["Frighteningly good hotel!", "My stay gave me chills... of joy!", "If I had a heart, it'd be melting."],
+      "mid": ["Neither dead nor alive. Fine.", "Delivers what it promises: shelter for creatures of the night."],
+      "bad": ["As scary as garlic, and not in a good way.", "An experience I wouldn't wish on my worst mortal enemy."]
+    },
+    "names": {
+      "ghost": ["Little Boo", "Miss Spectra", "Mr. Bedsheet", "Casper Jr.", "Aunt Haunt"],
+      "zombie": ["Brain Bob", "Zombelda", "Big Groan", "Mr. Shuffle", "Brainy"],
+      "vampire": ["Count Vlad", "Duchess Drac", "Baron Bloodsip", "Lady Fangs", "Viscount Night"],
+      "mummy": ["Pharaoh Ramses", "Mrs. Bandage", "Tut Junior", "Mr. Wrap", "Cleo Patty"],
+      "witch": ["Madame Potion", "Witch Bernice", "Lady Cauldron", "Morgana Broom", "Aunt Wart"],
+      "werewolf": ["Howler", "Mr. Furry", "Fenrir III", "Moon Lu", "Rex Claw"]
+    }
+  }
+}

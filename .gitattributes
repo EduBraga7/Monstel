@@ -1,0 +1,29 @@
+# Auto-detect text files and normalize line endings to LF on commit
+* text=auto
+
+# Godot scripts, resources and scenes (always LF)
+*.gd text eol=lf
+*.gdshader text eol=lf
+*.tscn text eol=lf
+*.tres text eol=lf
+*.uid text eol=lf
+*.import text eol=lf
+*.cfg text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+# Windows batch files (must remain CRLF for cmd.exe)
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.svg text eol=lf
+*.wav binary
+*.ogg binary
+*.mp3 binary
+*.ttf binary
+*.otf binary
+*.apk binary
