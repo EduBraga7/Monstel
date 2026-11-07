@@ -2,17 +2,58 @@
 
 > *Gerencie o hotel mais assombrosamente fofo do mundo!*
 
+<div align="center">
+
 [![Godot Engine](https://img.shields.io/badge/Godot-4.7.2-478cbf?logo=godotengine&logoColor=white)](https://godotengine.org/)
 [![Language](https://img.shields.io/badge/Language-GDScript_2.0-blue)](https://docs.godotengine.org/)
 [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20Windows-green)]()
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)]()
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Offline](https://img.shields.io/badge/Gameplay-100%25_Offline-purple)]()
+
+<br/>
+
+<img src="docs/screenshots/gameplay.gif" alt="Monstel Gameplay Animation" width="340" />
+
+<p><em>Simulação viva da torre em tempo real: hóspedes monstrinhos, elevadores SCAN e automação</em></p>
+
+</div>
+
+---
 
 **Monstel** é um jogo mobile de simulação e gerenciamento econômico (não é roguelite) desenvolvido em **Godot 4.7.2** com GDScript tipado, 2D vertical (modo retrato 1080×1920) e renderizador *Compatibility*.
 
 A visão é em corte transversal da torre do hotel — como um formigueiro habitado por monstrinhos adoráveis. Você acompanha cada hóspede chegando à recepção, pegando o elevador, descansando nas suítes, curtindo as facilidades (bar, buffet, spa) e fazendo check-out. Cada hóspede deixa uma avaliação bem-humorada sobre a estadia, influenciando sua reputação de estrelas.
 
 O jogo é **100% offline**, sem anúncios, sem compras no aplicativo (IAP) e com save atômico seguro.
+
+---
+
+## 📸 Capturas de Tela
+
+<div align="center">
+  <table>
+    <tr>
+      <th align="center">Torre do Hotel</th>
+      <th align="center">Visão Geral (Zoom Out)</th>
+      <th align="center">Construção & Expansão</th>
+    </tr>
+    <tr>
+      <td><img src="docs/screenshots/mid_1.png" alt="Torre do Hotel" width="240" /></td>
+      <td><img src="docs/screenshots/mid_zoomout.png" alt="Visão Geral com Zoom Out" width="240" /></td>
+      <td><img src="docs/screenshots/mid_sheet_build.png" alt="Folha de Construção" width="240" /></td>
+    </tr>
+    <tr>
+      <th align="center">Gerenciamento de Equipe</th>
+      <th align="center">Avaliações dos Hóspedes</th>
+      <th align="center">Renda Offline</th>
+    </tr>
+    <tr>
+      <td><img src="docs/screenshots/mid_sheet_staff.png" alt="Gerenciar Equipe" width="240" /></td>
+      <td><img src="docs/screenshots/mid_sheet_reviews.png" alt="Avaliações dos Clientes" width="240" /></td>
+      <td><img src="docs/screenshots/modal_offline.png" alt="Renda Offline Acumulada" width="240" /></td>
+    </tr>
+  </table>
+</div>
 
 ---
 
@@ -31,6 +72,11 @@ O jogo é **100% offline**, sem anúncios, sem compras no aplicativo (IAP) e com
 8. **Monstros (6 Espécies):** Fantasmas, Zumbis, Vampiros, Múmias, Bruxas e Lobisomens — cada espécie possui manias, ritmos e preferências únicas.
 9. **Avaliações & Modo Foto:** Leia os comentários absurdos deixados pelos hóspedes (com botão para copiar/compartilhar) e use o Modo Foto nas configurações para registrar sua torre.
 10. **Renda Offline & Recompensa Diária:** Renda passiva de até **8 horas a 50% de eficiência** enquanto estiver fora do jogo e bônus diário cumulativo com streak. Não há game over: má gestão apenas desacelera o progresso.
+
+<div align="center">
+  <img src="docs/screenshots/gallery.png" alt="Galeria de Monstros" width="620" />
+  <p><em>Galeria de espécies e expressões faciais (desenhadas 100% por código vetorial)</em></p>
+</div>
 
 ### Controles
 * **Arrastar com dedo / botão esquerdo do mouse:** Rola a torre verticalmente.
@@ -141,10 +187,12 @@ Monstel/
 │   ├── dev.bat            # Atalhos de desenvolvimento (import, run, smoke, script)
 │   ├── build_apk.bat      # Script para compilação headless do APK Android
 │   ├── install_apk.bat    # Script para instalação e abertura via ADB no celular
+│   ├── make_gif.js        # Compilador de frames em GIF animado otimizado
 │   ├── gen_audio.gd       # Sintetizador procedural dos efeitos sonoros
 │   └── gen_icons.gd       # Gerador procedural dos ícones Android
 │
-├── docs/                  # Documentação de design e planejamento
+├── docs/                  # Documentação de design e capturas
+│   ├── screenshots/       # GIF de gameplay e imagens de demonstração
 │   └── PLANO.md           # Game Design Document (GDD) original aprovado
 │
 └── .claude/               # Referências de desenvolvimento e guias Godot
