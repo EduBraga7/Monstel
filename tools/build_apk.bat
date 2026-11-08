@@ -3,7 +3,7 @@ rem Gera builds\Monstel-debug.apk (APK de debug, assinado com a chave de debug l
 rem Pre-requisitos: templates do Godot 4.7.2, JDK 17 e Android SDK.
 rem Os caminhos do JDK/SDK e da chave ficam nas Configuracoes do Editor do Godot (veja o README).
 setlocal
-if not defined GODOT_CONSOLE set "GODOT_CONSOLE=C:\Users\du-xb\OneDrive\Documentos\Godot\Godot_v4.7.2-stable_win64_console.exe"
+if not defined GODOT_CONSOLE set "GODOT_CONSOLE=C:\Users\du-xb\Documents\Godot\Godot_v4.7.2-stable_win64_console.exe"
 if not exist "%GODOT_CONSOLE%" (
   where godot_console >nul 2>&1 && set "GODOT_CONSOLE=godot_console"
   if not exist "%GODOT_CONSOLE%" where godot >nul 2>&1 && set "GODOT_CONSOLE=godot"

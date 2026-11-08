@@ -3,7 +3,7 @@
 Jogo mobile de **gerenciamento** (hotel de monstros em corte transversal): Godot 4.7.2, GDScript tipado, 2D, retrato 1080×1920, renderer Compatibility. Plano aprovado: `docs/PLANO.md`. Visão geral, controles e resultados dos testes: `README.md`.
 
 ## Ambiente (máquina do usuário)
-- Godot 4.7.2: `C:\Users\du-xb\OneDrive\Documentos\Godot\Godot_v4.7.2-stable_win64.exe` (GUI) e `..._console.exe` (CLI).
+- Godot 4.7.2: `C:\Users\du-xb\Documents\Godot\Godot_v4.7.2-stable_win64.exe` (GUI) e `..._console.exe` (CLI).
 - Sem Blender, Python real, Git ou Node. Ferramentas internas = GDScript headless + `.bat`.
 - Android já instalado (sem instalador, sem PATH): JDK 17 em `%LOCALAPPDATA%\Android\jdk-17`, SDK em `%LOCALAPPDATA%\Android\Sdk`
   (cmdline-tools, platform-tools, build-tools 35.0.1, android-35; sem NDK/CMake: não são necessários para APK sem Gradle),

@@ -10,6 +10,12 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Offline](https://img.shields.io/badge/Gameplay-100%25_Offline-purple)]()
 
+<br/><br/>
+
+<img src="docs/screenshots/gameplay.gif" width="340" alt="Demonstração do Jogo Monstel" />
+
+<p><em>Simulação da torre em tempo real: monstrinhos autônomos, elevador SCAN e automação</em></p>
+
 </div>
 
 ---

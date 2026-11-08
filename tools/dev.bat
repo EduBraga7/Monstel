@@ -5,7 +5,7 @@ rem   tools\dev.bat run                 abre o jogo
 rem   tools\dev.bat smoke               carrega o projeto sem janela e sai (procura erros de script)
 rem   tools\dev.bat script res://x.gd [args]   roda um script (extends SceneTree) sem janela
 setlocal
-if not defined GODOT_CONSOLE set "GODOT_CONSOLE=C:\Users\du-xb\OneDrive\Documentos\Godot\Godot_v4.7.2-stable_win64_console.exe"
+if not defined GODOT_CONSOLE set "GODOT_CONSOLE=C:\Users\du-xb\Documents\Godot\Godot_v4.7.2-stable_win64_console.exe"
 if not exist "%GODOT_CONSOLE%" (
   where godot_console >nul 2>&1 && set "GODOT_CONSOLE=godot_console"
   if not exist "%GODOT_CONSOLE%" where godot >nul 2>&1 && set "GODOT_CONSOLE=godot"

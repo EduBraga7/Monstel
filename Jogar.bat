@@ -2,7 +2,7 @@
 rem Abre o Monstel no PC usando o Godot 4.7.2 (nao precisa exportar nada).
 rem Para usar outro Godot, defina a variavel GODOT_EXE antes de rodar ou adicione ao PATH.
 setlocal
-if not defined GODOT_EXE set "GODOT_EXE=C:\Users\du-xb\OneDrive\Documentos\Godot\Godot_v4.7.2-stable_win64.exe"
+if not defined GODOT_EXE set "GODOT_EXE=C:\Users\du-xb\Documents\Godot\Godot_v4.7.2-stable_win64.exe"
 if not exist "%GODOT_EXE%" (
   where godot >nul 2>&1 && set "GODOT_EXE=godot"
 )
