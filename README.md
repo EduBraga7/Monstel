@@ -25,29 +25,26 @@ O jogo é **100% offline**, sem anúncios, sem compras no aplicativo (IAP) e com
 ## 📸 Capturas de Tela
 
 <div align="center">
-  <table>
-    <tr>
-      <th align="center">Torre do Hotel</th>
-      <th align="center">Visão Geral (Zoom Out)</th>
-      <th align="center">Construção & Expansão</th>
-    </tr>
-    <tr>
-      <td><img src="docs/screenshots/mid_1.png" alt="Torre do Hotel" width="240" /></td>
-      <td><img src="docs/screenshots/mid_zoomout.png" alt="Visão Geral com Zoom Out" width="240" /></td>
-      <td><img src="docs/screenshots/mid_sheet_build.png" alt="Folha de Construção" width="240" /></td>
-    </tr>
-    <tr>
-      <th align="center">Gerenciamento de Equipe</th>
-      <th align="center">Avaliações dos Hóspedes</th>
-      <th align="center">Renda Offline</th>
-    </tr>
-    <tr>
-      <td><img src="docs/screenshots/mid_sheet_staff.png" alt="Gerenciar Equipe" width="240" /></td>
-      <td><img src="docs/screenshots/mid_sheet_reviews.png" alt="Avaliações dos Clientes" width="240" /></td>
-      <td><img src="docs/screenshots/modal_offline.png" alt="Renda Offline Acumulada" width="240" /></td>
-    </tr>
-  </table>
+  <img src="docs/screenshots/mid_1.png" width="32%" alt="Torre do Hotel" />
+  <img src="docs/screenshots/mid_zoomout.png" width="32%" alt="Visão Geral da Torre" />
+  <img src="docs/screenshots/mid_sheet_build.png" width="32%" alt="Construção e Expansão" />
 </div>
+
+<p align="center">
+  <em>Torre viva em corte • Visão panorâmica com elevadores SCAN • Construção de suítes e facilidades</em>
+</p>
+
+<br/>
+
+<div align="center">
+  <img src="docs/screenshots/mid_sheet_staff.png" width="32%" alt="Gerenciamento de Equipe" />
+  <img src="docs/screenshots/mid_sheet_reviews.png" width="32%" alt="Avaliações dos Hóspedes" />
+  <img src="docs/screenshots/modal_offline.png" width="32%" alt="Renda Offline" />
+</div>
+
+<p align="center">
+  <em>Contratação de equipe • Avaliações hilárias dos hóspedes • Recompensa e renda offline</em>
+</p>
 
 ---
 
@@ -185,7 +182,7 @@ Monstel/
 │   └── gen_icons.gd       # Gerador procedural dos ícones Android
 │
 ├── docs/                  # Documentação de design e capturas
-│   ├── screenshots/       # Capturas de tela demonstrativas
+│   ├── screenshots/       # Capturas de tela demonstrativas em alta definição
 │   └── PLANO.md           # Game Design Document (GDD) original aprovado
 │
 └── .claude/               # Referências de desenvolvimento e guias Godot
